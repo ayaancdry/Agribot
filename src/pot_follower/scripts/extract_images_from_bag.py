@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image, CompressedImage # Added CompressedImage
+from sensor_msgs.msg import Image, CompressedImage 
 from cv_bridge import CvBridge
 import cv2
 import os
@@ -29,7 +29,6 @@ class BagImageExtractor(Node):
     def extract_images(self):
         try:
             with AnyReader([Path(self.bag_path)]) as reader:
-                # Filter connections for the specified image topic
                 image_connections = [
                     c for c in reader.connections if c.topic == self.image_topic
                 ]
@@ -77,11 +76,9 @@ def main_run(self):
 def main(args=None):
     rclpy.init(args=args)
 
-    # USER CONFIGURATION:
-    # IMPORTANT: Update these paths for your environment
-    bag_folder = os.path.expanduser('~/sim_ws/rosbag_pot_data') # Path to the folder containing your bag file (.db3)
-    output_images_folder = os.path.expanduser('~/yolo_pot_dataset/images/train') # Where to save the images
-    image_topic = '/front_camera/image_raw' # Your camera topic
+    bag_folder = os.path.expanduser('~/sim_ws/rosbag_pot_data') 
+    output_images_folder = os.path.expanduser('~/yolo_pot_dataset/images/train') 
+    image_topic = '/front_camera/image_raw' 
 
     extractor = BagImageExtractor(bag_folder, output_images_folder, image_topic)
     extractor.extract_images()

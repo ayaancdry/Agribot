@@ -9,14 +9,13 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from pathlib import Path # <--- MAKE SURE TO ADD THIS IMPORT
 
 def generate_launch_description():
-    # Path to your custom world
     world_path = os.path.join(
         FindPackageShare('sim_lobby_classic').find('sim_lobby_classic'),
         'worlds',
         'lobby_with_pots.world'
     )
     
-    # Correct path to sim_bot's four-wheel XACRO
+    # path to sim_bot
     xacro_file = os.path.join(
         FindPackageShare('sim_bot').find('sim_bot'),
         'description', # matches your path "sim_ws/src/sim_bot/description"
@@ -24,13 +23,11 @@ def generate_launch_description():
     )
     robot_desc = Command(['xacro ', xacro_file])
 
-    # Define path to your TRAINED YOLO model (CRITICAL: ENSURE THIS PATH IS CORRECT!)
-    # This points to where you copied your 'best.pt' renamed to 'flower_pot_detector.pt'
-    yolo_model_path = os.path.expanduser('~/sim_ws/custom_yolo_models/flower_pot_detector.pt') # <--- ADD THIS LINE
+    yolo_model_path = os.path.expanduser('~/sim_ws/custom_yolo_models/flower_pot_detector.pt') 
 
 
     return LaunchDescription([
-        # 1️⃣ Launch Gazebo Classic with ROS plugin  
+        # gazebo launch
         ExecuteProcess(
             cmd=[
                 'gazebo', '--verbose', world_path,
@@ -40,7 +37,7 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # 2️⃣ Publish robot description from XACRO
+        # robot description from XACRO
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
@@ -48,7 +45,7 @@ def generate_launch_description():
             parameters=[{'robot_description': robot_desc}]
         ),
 
-        # 3️⃣ Spawn robot in Gazebo
+        # Spawn robot in Gazebo
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
@@ -61,8 +58,8 @@ def generate_launch_description():
         ),
 
 
-        # 4️⃣ YOLO Detection Node (ADD THIS BLOCK)
-        # Include the yolo.launch.py from yolo_bringup, passing arguments
+        # YOLO Detection Node 
+        # Including the yolo.launch.py from yolo_bringup, passing arguments
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([
                 str(Path(FindPackageShare('yolo_bringup').find('yolo_bringup'))),
@@ -74,12 +71,12 @@ def generate_launch_description():
                 'publish_debug_image': 'True',
                 'device': 'cpu',
                 'conf': '0.25', # Keep this from previous debugging
-                'use_yolo_msg_type': 'False', # <--- ADD THIS CRUCIAL LINE
-                'namespace': '', # <--- ADD OR CHANGE THIS LINE TO AN EMPTY STRING
+                'use_yolo_msg_type': 'False', 
+                'namespace': '', 
             }.items()
         ),
 
-        # 5️⃣ Autonomous Pot Follower Node (ADD THIS BLOCK)
+        # Autonomous Pot Follower Node 
         Node(
             package='pot_follower',
             executable='pot_follower_node',

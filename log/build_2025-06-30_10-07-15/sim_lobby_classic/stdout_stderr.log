@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing sim_lobby_classic.egg-info/PKG-INFO
+writing dependency_links to sim_lobby_classic.egg-info/dependency_links.txt
+writing entry points to sim_lobby_classic.egg-info/entry_points.txt
+writing requirements to sim_lobby_classic.egg-info/requires.txt
+writing top-level names to sim_lobby_classic.egg-info/top_level.txt
+reading manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+writing manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim-lobby-classic.egg-link (link to .)
+
+Installed /home/ayaan/sim_ws/build/sim_lobby_classic
+running symlink_data
