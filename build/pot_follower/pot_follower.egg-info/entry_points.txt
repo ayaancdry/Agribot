@@ -1,0 +1,4 @@
+[console_scripts]
+extract_images = pot_follower.scripts.extract_images_from_bag:main
+pot_follower_node = pot_follower.pot_follower_node:main
+

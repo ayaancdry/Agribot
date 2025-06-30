@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing pot_follower.egg-info/PKG-INFO
+writing dependency_links to pot_follower.egg-info/dependency_links.txt
+writing entry points to pot_follower.egg-info/entry_points.txt
+writing requirements to pot_follower.egg-info/requires.txt
+writing top-level names to pot_follower.egg-info/top_level.txt
+reading manifest file 'pot_follower.egg-info/SOURCES.txt'
+writing manifest file 'pot_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages/pot-follower.egg-link (link to .)
+Installing extract_images script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+Installing pot_follower_node script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+
+Installed /home/ayaan/sim_ws/build/pot_follower
+running symlink_data
+symbolically linking /home/ayaan/sim_ws/build/pot_follower/resource/pot_follower -> /home/ayaan/sim_ws/install/pot_follower/share/ament_index/resource_index/packages
+symbolically linking /home/ayaan/sim_ws/build/pot_follower/package.xml -> /home/ayaan/sim_ws/install/pot_follower/share/pot_follower

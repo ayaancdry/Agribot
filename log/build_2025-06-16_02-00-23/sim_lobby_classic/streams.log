@@ -1,0 +1,16 @@
+[0.601s] Invoking command in '/home/ayaan/sim_ws/build/sim_lobby_classic': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/sim_lobby_classic/build --no-deps symlink_data
+[0.861s] running develop
+[1.027s] running egg_info
+[1.028s] writing sim_lobby_classic.egg-info/PKG-INFO
+[1.028s] writing dependency_links to sim_lobby_classic.egg-info/dependency_links.txt
+[1.028s] writing entry points to sim_lobby_classic.egg-info/entry_points.txt
+[1.028s] writing requirements to sim_lobby_classic.egg-info/requires.txt
+[1.028s] writing top-level names to sim_lobby_classic.egg-info/top_level.txt
+[1.030s] reading manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+[1.031s] writing manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+[1.032s] running build_ext
+[1.033s] Creating /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim-lobby-classic.egg-link (link to .)
+[1.033s] 
+[1.034s] Installed /home/ayaan/sim_ws/build/sim_lobby_classic
+[1.034s] running symlink_data
+[1.063s] Invoked command in '/home/ayaan/sim_ws/build/sim_lobby_classic' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/sim_lobby_classic/build --no-deps symlink_data

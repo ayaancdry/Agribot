@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ayaan/sim_ws/build/sim_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/gz_bridge.yaml
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/joy_params.yaml
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/nav_params.yaml
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/slam_params.yaml
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/twist_mux_params.yaml
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/3dlidar.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/camera.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/common.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/depth_camera.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/diff_bot.urdf.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/four_wheel.urdf.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/lidar.xacro
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/diff_bot.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/four_wheel.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/nav.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/rsp.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/slam.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/teleop.launch.py
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/rviz/bot.rviz
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/worlds/empty.world
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/worlds/test.world
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/package_run_dependencies/sim_bot
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/parent_prefix_path/sim_bot
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/path.sh
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/path.dsv
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.bash
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.sh
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.zsh
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.dsv
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.dsv
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/packages/sim_bot
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig.cmake
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig-version.cmake
+-- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.xml

@@ -1,0 +1,1 @@
+/home/ayaan/sim_ws/build/sim_bot/ament_cmake_core/sim_botConfig.cmake

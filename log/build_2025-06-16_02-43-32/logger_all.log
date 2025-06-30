@@ -1,0 +1,576 @@
+[0.939s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.939s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7543b86ceec0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7543b86cea70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7543b86cea70>>)
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayaan/sim_ws'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'ignore_ament_install'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['colcon_meta']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'colcon_meta'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['ros']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'ros'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['cmake', 'python']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'cmake'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'python'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extensions ['python_setup_py']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(custom_yolo_models) by extension 'python_setup_py'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'ignore_ament_install'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['colcon_pkg']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'colcon_pkg'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['colcon_meta']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'colcon_meta'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['ros']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'ros'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['cmake', 'python']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'cmake'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'python'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extensions ['python_setup_py']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(ip) by extension 'python_setup_py'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'ros'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['cmake', 'python']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'cmake'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'python'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extensions ['python_setup_py']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag_pot_data) by extension 'python_setup_py'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'ros'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['cmake', 'python']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'cmake'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'python'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extensions ['python_setup_py']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs) by extension 'python_setup_py'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'ros'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['cmake', 'python']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'cmake'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'python'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extensions ['python_setup_py']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect) by extension 'python_setup_py'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'ros'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['cmake', 'python']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'cmake'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'python'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extensions ['python_setup_py']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector) by extension 'python_setup_py'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'ros'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['cmake', 'python']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'cmake'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'python'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extensions ['python_setup_py']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(runs/detect/flower_pot_detector/weights) by extension 'python_setup_py'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/pot_follower) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pot_follower' with type 'ros.ament_python' and name 'pot_follower'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extension 'ignore_ament_install'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_bot) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sim_bot' with type 'ros.ament_cmake' and name 'sim_bot'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extension 'ignore_ament_install'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extensions ['colcon_pkg']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extension 'colcon_pkg'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extensions ['colcon_meta']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extension 'colcon_meta'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extensions ['ros']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_lobby_classic) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sim_lobby_classic' with type 'ros.ament_python' and name 'sim_lobby_classic'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['ignore', 'ignore_ament_install']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'ignore_ament_install'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['colcon_pkg']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'colcon_pkg'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['colcon_meta']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'colcon_meta'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['ros']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'ros'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['cmake', 'python']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'cmake'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'python'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extensions ['python_setup_py']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/weights) by extension 'python_setup_py'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[1.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[1.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[1.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ayaan/sim_ws/install
+[1.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/ayaan/turtlebot3_ws/install
+[1.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[1.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'pot_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.267s] DEBUG:colcon.colcon_core.verb:Building package 'pot_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/pot_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/pot_follower', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/pot_follower', 'symlink_install': False, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'sim_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.267s] DEBUG:colcon.colcon_core.verb:Building package 'sim_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/sim_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/sim_bot', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/sim_bot', 'symlink_install': False, 'test_result_base': None}
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/yolo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/yolo_msgs', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/yolo_ros/yolo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'sim_lobby_classic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'sim_lobby_classic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/sim_lobby_classic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/sim_lobby_classic', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/sim_lobby_classic', 'symlink_install': False, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.269s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/yolo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/yolo_ros', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/yolo_ros/yolo_ros', 'symlink_install': False, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.269s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaan/sim_ws/build/yolo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaan/sim_ws/install/yolo_bringup', 'merge_install': False, 'path': '/home/ayaan/sim_ws/src/yolo_ros/yolo_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.271s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_msgs' with build type 'ament_cmake'
+[1.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_msgs'
+[1.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayaan/sim_ws/src/sim_bot' with build type 'ament_cmake'
+[1.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayaan/sim_ws/src/sim_bot'
+[1.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaan/sim_ws/src/pot_follower' with build type 'ament_python'
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('pot_follower', 'ament_prefix_path')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/ament_prefix_path.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/ament_prefix_path.dsv'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/ament_prefix_path.sh'
+[1.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/yolo_msgs
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/sim_bot -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/sim_bot
+[1.646s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaan/sim_ws/src/pot_follower'
+[1.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/pot_follower': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/pot_follower/build
+[2.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/sim_bot -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/sim_bot
+[2.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/sim_bot -- -j8 -l8
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/pot_follower' returned '0': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/pot_follower/build
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/src/pot_follower': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pot_follower build --build-base /home/ayaan/sim_ws/build/pot_follower/build install --record /home/ayaan/sim_ws/build/pot_follower/install.log --single-version-externally-managed install_data --force
+[2.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/sim_bot -- -j8 -l8
+[2.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/sim_bot
+[2.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_bot)
+[2.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/sim_bot
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot' for CMake module files
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot' for CMake config files
+[2.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_bot', 'cmake_prefix_path')
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.dsv'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.sh'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/bin'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/lib/pkgconfig/sim_bot.pc'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/lib/python3.10/site-packages'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/bin'
+[2.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.ps1'
+[2.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.dsv'
+[2.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.sh'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.bash'
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.zsh'
+[2.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/sim_bot/share/colcon-core/packages/sim_bot)
+[2.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_bot)
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot' for CMake module files
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot' for CMake config files
+[2.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_bot', 'cmake_prefix_path')
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/hook/cmake_prefix_path.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/bin'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/lib/pkgconfig/sim_bot.pc'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/lib/python3.10/site-packages'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_bot/bin'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.ps1'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.sh'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.bash'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.zsh'
+[2.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/sim_bot/share/colcon-core/packages/sim_bot)
+[2.675s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaan/sim_ws/src/sim_lobby_classic' with build type 'ament_python'
+[2.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_lobby_classic', 'ament_prefix_path')
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/ament_prefix_path.ps1'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/ament_prefix_path.dsv'
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/ament_prefix_path.sh'
+[2.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.975s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaan/sim_ws/src/sim_lobby_classic'
+[2.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower' for CMake module files
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/src/pot_follower' returned '0': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pot_follower build --build-base /home/ayaan/sim_ws/build/pot_follower/build install --record /home/ayaan/sim_ws/build/pot_follower/install.log --single-version-externally-managed install_data --force
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower' for CMake config files
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower/lib'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower/bin'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower/lib/pkgconfig/pot_follower.pc'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages'
+[2.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('pot_follower', 'pythonpath')
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/pythonpath.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/pythonpath.dsv'
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/hook/pythonpath.sh'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/pot_follower/bin'
+[2.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pot_follower)
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/package.ps1'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/package.dsv'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/package.sh'
+[2.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/package.bash'
+[3.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/pot_follower/share/pot_follower/package.zsh'
+[3.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/pot_follower/share/colcon-core/packages/pot_follower)
+[3.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/sim_lobby_classic': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/sim_lobby_classic/build
+[3.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/sim_lobby_classic' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/sim_lobby_classic/build
+[3.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/src/sim_lobby_classic': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_lobby_classic build --build-base /home/ayaan/sim_ws/build/sim_lobby_classic/build install --record /home/ayaan/sim_ws/build/sim_lobby_classic/install.log --single-version-externally-managed install_data --force
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic' for CMake module files
+[4.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/src/sim_lobby_classic' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_lobby_classic build --build-base /home/ayaan/sim_ws/build/sim_lobby_classic/build install --record /home/ayaan/sim_ws/build/sim_lobby_classic/install.log --single-version-externally-managed install_data --force
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic' for CMake config files
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic/lib'
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic/bin'
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic/lib/pkgconfig/sim_lobby_classic.pc'
+[4.269s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages'
+[4.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_lobby_classic', 'pythonpath')
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath.ps1'
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath.dsv'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath.sh'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/sim_lobby_classic/bin'
+[4.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_lobby_classic)
+[4.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/package.ps1'
+[4.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/package.dsv'
+[4.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/package.sh'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/package.bash'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/package.zsh'
+[4.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/sim_lobby_classic/share/colcon-core/packages/sim_lobby_classic)
+[4.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/yolo_msgs
+[4.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/yolo_msgs -- -j8 -l8
+[5.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/yolo_msgs -- -j8 -l8
+[5.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/yolo_msgs
+[5.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[5.686s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs' for CMake module files
+[5.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/yolo_msgs
+[5.687s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs' for CMake config files
+[5.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[5.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[5.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[5.715s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib'
+[5.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[5.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[5.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[5.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/bin'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib/python3.10/site-packages'
+[5.717s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/bin'
+[5.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[5.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[5.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.sh'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.bash'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[5.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[5.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[5.720s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs' for CMake module files
+[5.721s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs' for CMake config files
+[5.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[5.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[5.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[5.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib'
+[5.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[5.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[5.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[5.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[5.724s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/bin'
+[5.725s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[5.725s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/lib/python3.10/site-packages'
+[5.725s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_msgs/bin'
+[5.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[5.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[5.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.sh'
+[5.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.bash'
+[5.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[5.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[5.727s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_ros' with build type 'ament_python'
+[5.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'ament_prefix_path')
+[5.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.ps1'
+[5.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.dsv'
+[5.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.sh'
+[5.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.015s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_ros'
+[6.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_ros': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/yolo_ros/build
+[6.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayaan/sim_ws/build/yolo_ros/build
+[6.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/src/yolo_ros/yolo_ros': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/ayaan/sim_ws/build/yolo_ros/build install --record /home/ayaan/sim_ws/build/yolo_ros/install.log --single-version-externally-managed install_data --force
+[7.123s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros' for CMake module files
+[7.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/src/yolo_ros/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/ayaan/sim_ws/build/yolo_ros/build install --record /home/ayaan/sim_ws/build/yolo_ros/install.log --single-version-externally-managed install_data --force
+[7.124s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros' for CMake config files
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros/lib'
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros/bin'
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros/lib/pkgconfig/yolo_ros.pc'
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages'
+[7.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'pythonpath')
+[7.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.ps1'
+[7.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.dsv'
+[7.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/hook/pythonpath.sh'
+[7.127s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_ros/bin'
+[7.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_ros)
+[7.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/package.ps1'
+[7.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/package.dsv'
+[7.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/package.sh'
+[7.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/package.bash'
+[7.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/package.zsh'
+[7.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/yolo_ros/share/colcon-core/packages/yolo_ros)
+[7.130s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_bringup' with build type 'ament_cmake'
+[7.130s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayaan/sim_ws/src/yolo_ros/yolo_bringup'
+[7.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_bringup': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/ayaan/sim_ws/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/yolo_bringup
+[7.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/ayaan/sim_ws/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/yolo_bringup
+[7.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_bringup': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ayaan/sim_ws/build/yolo_bringup -- -j8 -l8
+[7.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ayaan/sim_ws/build/yolo_bringup -- -j8 -l8
+[7.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaan/sim_ws/build/yolo_bringup': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ayaan/sim_ws/build/yolo_bringup
+[7.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup' for CMake module files
+[7.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaan/sim_ws/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer:/home/ayaan/sim_ws/install/pot_follower:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/pot_follower:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:/home/ayaan/sim_ws/build/yolo_ros:/home/ayaan/sim_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/ayaan/sim_ws/build/sim_lobby_classic:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/build/turtlebot3_example:/home/ayaan/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ayaan/sim_ws/build/yolo_bringup
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup' for CMake config files
+[7.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[7.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[7.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[7.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/bin'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/lib/python3.10/site-packages'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/bin'
+[7.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[7.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[7.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.sh'
+[7.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.bash'
+[7.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[7.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[7.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup' for CMake module files
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup' for CMake config files
+[7.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/bin'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/lib/python3.10/site-packages'
+[7.455s] Level 1:colcon.colcon_core.environment:checking '/home/ayaan/sim_ws/install/yolo_bringup/bin'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[7.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.sh'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.bash'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaan/sim_ws/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[7.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaan/sim_ws/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[7.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.458s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.474s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaan/sim_ws/install/local_setup.ps1'
+[7.476s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayaan/sim_ws/install/_local_setup_util_ps1.py'
+[7.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaan/sim_ws/install/setup.ps1'
+[7.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaan/sim_ws/install/local_setup.sh'
+[7.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayaan/sim_ws/install/_local_setup_util_sh.py'
+[7.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaan/sim_ws/install/setup.sh'
+[7.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaan/sim_ws/install/local_setup.bash'
+[7.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaan/sim_ws/install/setup.bash'
+[7.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaan/sim_ws/install/local_setup.zsh'
+[7.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaan/sim_ws/install/setup.zsh'

@@ -1,0 +1,29 @@
+[0.604s] Invoking command in '/home/ayaan/sim_ws/build/yolo_ros': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/yolo_ros/build --no-deps symlink_data
+[0.856s] running develop
+[1.015s] running egg_info
+[1.015s] creating yolo_ros.egg-info
+[1.015s] writing yolo_ros.egg-info/PKG-INFO
+[1.015s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[1.016s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[1.016s] writing requirements to yolo_ros.egg-info/requires.txt
+[1.016s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[1.016s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[1.018s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[1.018s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[1.020s] running build_ext
+[1.020s] Creating /home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[1.021s] Installing debug_node script to /home/ayaan/sim_ws/install/yolo_ros/lib/yolo_ros
+[1.021s] Installing detect_3d_node script to /home/ayaan/sim_ws/install/yolo_ros/lib/yolo_ros
+[1.021s] Installing tracking_node script to /home/ayaan/sim_ws/install/yolo_ros/lib/yolo_ros
+[1.021s] Installing yolo_node script to /home/ayaan/sim_ws/install/yolo_ros/lib/yolo_ros
+[1.022s] 
+[1.022s] Installed /home/ayaan/sim_ws/build/yolo_ros
+[1.022s] running symlink_data
+[1.022s] creating /home/ayaan/sim_ws/install/yolo_ros/share/ament_index
+[1.022s] creating /home/ayaan/sim_ws/install/yolo_ros/share/ament_index/resource_index
+[1.022s] creating /home/ayaan/sim_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.022s] symbolically linking /home/ayaan/sim_ws/build/yolo_ros/resource/yolo_ros -> /home/ayaan/sim_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.022s] symbolically linking /home/ayaan/sim_ws/build/yolo_ros/package.xml -> /home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros
+[1.022s] creating /home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/launch
+[1.022s] creating /home/ayaan/sim_ws/install/yolo_ros/share/yolo_ros/config
+[1.050s] Invoked command in '/home/ayaan/sim_ws/build/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer LD_LIBRARY_PATH=/home/ayaan/sim_ws/install/yolo_msgs/lib:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ayaan/CoppeliaSim:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ayaan/sim_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/yolo_ros/build --no-deps symlink_data

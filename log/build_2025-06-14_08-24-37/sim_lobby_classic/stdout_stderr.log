@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating sim_lobby_classic.egg-info
+writing sim_lobby_classic.egg-info/PKG-INFO
+writing dependency_links to sim_lobby_classic.egg-info/dependency_links.txt
+writing entry points to sim_lobby_classic.egg-info/entry_points.txt
+writing requirements to sim_lobby_classic.egg-info/requires.txt
+writing top-level names to sim_lobby_classic.egg-info/top_level.txt
+writing manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+reading manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+writing manifest file 'sim_lobby_classic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim-lobby-classic.egg-link (link to .)
+
+Installed /home/ayaan/sim_ws/build/sim_lobby_classic
+running symlink_data
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/share/ament_index
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/share/ament_index/resource_index
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/share/ament_index/resource_index/packages
+symbolically linking /home/ayaan/sim_ws/build/sim_lobby_classic/resource/sim_lobby_classic -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/ament_index/resource_index/packages
+symbolically linking /home/ayaan/sim_ws/build/sim_lobby_classic/package.xml -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/launch
+symbolically linking /home/ayaan/sim_ws/build/sim_lobby_classic/launch/lobby_classic.launch.py -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/launch
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/worlds
+symbolically linking /home/ayaan/sim_ws/build/sim_lobby_classic/worlds/lobby_with_pots.world -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/worlds

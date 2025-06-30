@@ -1,0 +1,20 @@
+[0.714s] Invoking command in '/home/ayaan/sim_ws/src/sim_lobby_classic': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_lobby_classic build --build-base /home/ayaan/sim_ws/build/sim_lobby_classic/build install --record /home/ayaan/sim_ws/build/sim_lobby_classic/install.log --single-version-externally-managed install_data
+[0.962s] running egg_info
+[0.963s] writing ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/dependency_links.txt
+[0.963s] writing entry points to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/entry_points.txt
+[0.963s] writing requirements to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/requires.txt
+[0.963s] writing top-level names to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/top_level.txt
+[0.965s] reading manifest file '../../build/sim_lobby_classic/sim_lobby_classic.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../../build/sim_lobby_classic/sim_lobby_classic.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.966s] running build_py
+[0.966s] running install
+[0.967s] running install_lib
+[0.968s] running install_data
+[0.968s] running install_egg_info
+[0.970s] removing '/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.970s] Copying ../../build/sim_lobby_classic/sim_lobby_classic.egg-info to /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[0.993s] writing list of installed files to '/home/ayaan/sim_ws/build/sim_lobby_classic/install.log'
+[1.018s] Invoked command in '/home/ayaan/sim_ws/src/sim_lobby_classic' returned '0': CMAKE_PREFIX_PATH=/home/ayaan/sim_ws/install/sim_bot:/home/ayaan/sim_ws/install/yolo_bringup:/home/ayaan/sim_ws/install/yolo_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3:/home/ayaan/turtlebot3_ws/install/turtlebot3_simulations:/home/ayaan/turtlebot3_ws/install/turtlebot3_bringup:/home/ayaan/turtlebot3_ws/install/turtlebot3_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_navigation2:/home/ayaan/turtlebot3_ws/install/turtlebot3_fake_node:/home/ayaan/turtlebot3_ws/install/turtlebot3_msgs:/home/ayaan/turtlebot3_ws/install/turtlebot3_gazebo:/home/ayaan/turtlebot3_ws/install/turtlebot3_description:/home/ayaan/turtlebot3_ws/install/turtlebot3_cartographer PYTHONPATH=/home/ayaan/sim_ws/build/sim_lobby_classic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_lobby_classic build --build-base /home/ayaan/sim_ws/build/sim_lobby_classic/build install --record /home/ayaan/sim_ws/build/sim_lobby_classic/install.log --single-version-externally-managed install_data

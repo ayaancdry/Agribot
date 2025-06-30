@@ -1,0 +1,22 @@
+[0.710s] Invoking command in '/home/ayaan/sim_ws/src/pot_follower': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pot_follower build --build-base /home/ayaan/sim_ws/build/pot_follower/build install --record /home/ayaan/sim_ws/build/pot_follower/install.log --single-version-externally-managed install_data
+[0.985s] running egg_info
+[0.985s] writing ../../build/pot_follower/pot_follower.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ../../build/pot_follower/pot_follower.egg-info/dependency_links.txt
+[0.986s] writing entry points to ../../build/pot_follower/pot_follower.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/pot_follower/pot_follower.egg-info/requires.txt
+[0.986s] writing top-level names to ../../build/pot_follower/pot_follower.egg-info/top_level.txt
+[0.988s] reading manifest file '../../build/pot_follower/pot_follower.egg-info/SOURCES.txt'
+[0.989s] writing manifest file '../../build/pot_follower/pot_follower.egg-info/SOURCES.txt'
+[0.989s] running build
+[0.989s] running build_py
+[0.989s] running install
+[0.990s] running install_lib
+[0.991s] running install_data
+[0.991s] running install_egg_info
+[0.993s] removing '/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages/pot_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[0.993s] Copying ../../build/pot_follower/pot_follower.egg-info to /home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages/pot_follower-0.0.0-py3.10.egg-info
+[0.994s] running install_scripts
+[1.016s] Installing extract_images script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+[1.016s] Installing pot_follower_node script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+[1.016s] writing list of installed files to '/home/ayaan/sim_ws/build/pot_follower/install.log'
+[1.085s] Invoked command in '/home/ayaan/sim_ws/src/pot_follower' returned '0': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pot_follower build --build-base /home/ayaan/sim_ws/build/pot_follower/build install --record /home/ayaan/sim_ws/build/pot_follower/install.log --single-version-externally-managed install_data

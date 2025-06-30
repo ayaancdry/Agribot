@@ -1,0 +1,9 @@
+source;share/sim_lobby_classic/hook/pythonpath.ps1
+source;share/sim_lobby_classic/hook/pythonpath.dsv
+source;share/sim_lobby_classic/hook/pythonpath.sh
+source;share/sim_lobby_classic/hook/ament_prefix_path.ps1
+source;share/sim_lobby_classic/hook/ament_prefix_path.dsv
+source;share/sim_lobby_classic/hook/ament_prefix_path.sh
+source;../../build/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath_develop.ps1
+source;../../build/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath_develop.dsv
+source;../../build/sim_lobby_classic/share/sim_lobby_classic/hook/pythonpath_develop.sh

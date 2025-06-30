@@ -1,0 +1,18 @@
+[1.150s] Invoking command in '/home/ayaan/sim_ws/build/pot_follower': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/pot_follower/build --no-deps symlink_data
+[1.792s] running develop
+[2.281s] running egg_info
+[2.282s] writing pot_follower.egg-info/PKG-INFO
+[2.282s] writing dependency_links to pot_follower.egg-info/dependency_links.txt
+[2.283s] writing entry points to pot_follower.egg-info/entry_points.txt
+[2.283s] writing requirements to pot_follower.egg-info/requires.txt
+[2.283s] writing top-level names to pot_follower.egg-info/top_level.txt
+[2.288s] reading manifest file 'pot_follower.egg-info/SOURCES.txt'
+[2.290s] writing manifest file 'pot_follower.egg-info/SOURCES.txt'
+[2.293s] running build_ext
+[2.294s] Creating /home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages/pot-follower.egg-link (link to .)
+[2.296s] Installing extract_images script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+[2.297s] Installing pot_follower_node script to /home/ayaan/sim_ws/install/pot_follower/lib/pot_follower
+[2.297s] 
+[2.297s] Installed /home/ayaan/sim_ws/build/pot_follower
+[2.297s] running symlink_data
+[2.365s] Invoked command in '/home/ayaan/sim_ws/build/pot_follower' returned '0': PYTHONPATH=/home/ayaan/sim_ws/build/pot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaan/sim_ws/install/pot_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayaan/sim_ws/build/pot_follower/build --no-deps symlink_data

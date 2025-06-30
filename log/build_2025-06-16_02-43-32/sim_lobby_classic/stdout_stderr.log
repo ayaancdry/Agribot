@@ -1,0 +1,30 @@
+running develop
+Removing /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim-lobby-classic.egg-link (link to .)
+running egg_info
+writing ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/dependency_links.txt
+writing entry points to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/entry_points.txt
+writing requirements to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/requires.txt
+writing top-level names to ../../build/sim_lobby_classic/sim_lobby_classic.egg-info/top_level.txt
+reading manifest file '../../build/sim_lobby_classic/sim_lobby_classic.egg-info/SOURCES.txt'
+writing manifest file '../../build/sim_lobby_classic/sim_lobby_classic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ayaan/sim_ws/build/sim_lobby_classic/build
+creating /home/ayaan/sim_ws/build/sim_lobby_classic/build/lib
+creating /home/ayaan/sim_ws/build/sim_lobby_classic/build/lib/sim_lobby_classic
+copying sim_lobby_classic/__init__.py -> /home/ayaan/sim_ws/build/sim_lobby_classic/build/lib/sim_lobby_classic
+running install
+running install_lib
+creating /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic
+copying /home/ayaan/sim_ws/build/sim_lobby_classic/build/lib/sim_lobby_classic/__init__.py -> /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic
+byte-compiling /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/sim_lobby_classic -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/ament_index/resource_index/packages
+copying package.xml -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic
+copying launch/lobby_classic.launch.py -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/launch
+copying worlds/lobby_with_pots.world -> /home/ayaan/sim_ws/install/sim_lobby_classic/share/sim_lobby_classic/worlds
+running install_egg_info
+Copying ../../build/sim_lobby_classic/sim_lobby_classic.egg-info to /home/ayaan/sim_ws/install/sim_lobby_classic/lib/python3.10/site-packages/sim_lobby_classic-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ayaan/sim_ws/build/sim_lobby_classic/install.log'

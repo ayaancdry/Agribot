@@ -1,0 +1,62 @@
+[0.010s] Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/sim_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/sim_bot
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.602s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Configuring done
+[0.749s] -- Generating done
+[0.750s] -- Build files have been written to: /home/ayaan/sim_ws/build/sim_bot
+[0.754s] Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ayaan/sim_ws/src/sim_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayaan/sim_ws/install/sim_bot
+[0.755s] Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/sim_bot -- -j8 -l8
+[0.788s] Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ayaan/sim_ws/build/sim_bot -- -j8 -l8
+[0.797s] Invoking command in '/home/ayaan/sim_ws/build/sim_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/sim_bot
+[0.803s] -- Install configuration: ""
+[0.804s] -- Execute custom install script
+[0.804s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/gz_bridge.yaml
+[0.811s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/joy_params.yaml
+[0.819s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/nav_params.yaml
+[0.826s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/slam_params.yaml
+[0.834s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/config/twist_mux_params.yaml
+[0.841s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/3dlidar.xacro
+[0.849s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/camera.xacro
+[0.856s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/common.xacro
+[0.864s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/depth_camera.xacro
+[0.872s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/diff_bot.urdf.xacro
+[0.879s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/four_wheel.urdf.xacro
+[0.887s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/description/lidar.xacro
+[0.895s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/diff_bot.launch.py
+[0.903s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/four_wheel.launch.py
+[0.911s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/nav.launch.py
+[0.918s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/rsp.launch.py
+[0.926s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/slam.launch.py
+[0.934s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/launch/teleop.launch.py
+[0.941s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/rviz/bot.rviz
+[0.949s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/worlds/empty.world
+[0.956s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/worlds/test.world
+[0.963s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/package_run_dependencies/sim_bot
+[0.971s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/parent_prefix_path/sim_bot
+[0.979s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.sh
+[0.986s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/ament_prefix_path.dsv
+[0.994s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/path.sh
+[1.002s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/environment/path.dsv
+[1.010s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.bash
+[1.018s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.sh
+[1.026s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.zsh
+[1.034s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/local_setup.dsv
+[1.041s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.dsv
+[1.049s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/ament_index/resource_index/packages/sim_bot
+[1.057s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig.cmake
+[1.065s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/cmake/sim_botConfig-version.cmake
+[1.073s] -- Symlinking: /home/ayaan/sim_ws/install/sim_bot/share/sim_bot/package.xml
+[1.082s] Invoked command in '/home/ayaan/sim_ws/build/sim_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaan/sim_ws/install/yolo_ros:/home/ayaan/sim_ws/install/sim_lobby_classic:/home/ayaan/turtlebot3_ws/install/turtlebot3_teleop:/home/ayaan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ayaan/sim_ws/build/sim_bot
