@@ -1,0 +1,6 @@
+[submodule "src/sim_bot"]
+	path = src/sim_bot
+	url = git@github.com:ayaancdry/Agribot.git
+[submodule "src/yolo_ros"]
+	path = src/yolo_ros
+	url = git@github.com:ayaancdry/Agribot.git
